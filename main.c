@@ -2,7 +2,7 @@
  * myFirstXmega.c
  *
  * Created: 1/24/2018 8:46:48 PM
- * Author : ali
+ * Author : ali aqa ghazi
  */ 
 #define F_CPU 8000000
 #define F_SYS 32000000
