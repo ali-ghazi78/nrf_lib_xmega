@@ -54,9 +54,6 @@ It integrates multiple hardware interfaces such as **USART, SPI, I²C (TWI), PWM
 - nRF24L01 RF module(s).  
 - Optional: OLED display, MPU/compass sensor.  
 
-### Software / Toolchain
-- AVR-GCC / Atmel Studio (Microchip Studio).  
-- AVRDUDE or Atmel ICE / USBasp programmer.  
 
 ---
 
@@ -78,5 +75,13 @@ It integrates multiple hardware interfaces such as **USART, SPI, I²C (TWI), PWM
 
 ---
 
-## 📂 File Structure
+
+## ▶️ Usage
+
+1. **Connect hardware** as per pin definitions in `myFirstXmega.c`:
+   - LEDs → PORTC  
+   - Keys → PORTD  
+   - SPI → PORTD (SCK, MOSI, MISO, SS)  
+   - I²C → PORTE  
+
 
